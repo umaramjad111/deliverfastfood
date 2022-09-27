@@ -1,0 +1,134 @@
+.footer{
+    padding: 50px 0px;
+    background: rgb(21, 21, 21);
+    color: #fff;
+    /* box-shadow: 5px 5px 15px -5px #dedede; */
+    /* color: white; */
+}
+.footer__logo img{
+
+    width: calc(100% - 80%);
+    margin-bottom: 5px;
+}
+.footer__logo h5{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.footer__logo p {
+    font-size: 0.9rem;
+    color: #fff;
+    line-height: 28px;
+}
+.delivery__time__list{
+    /* background: transparent; */
+}
+.delivery__time__item{
+    background: transparent !important;
+}
+.delivery__time__item span{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+}
+.delivery__time__item p {
+    color: #fff ;
+}
+.footer__title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+}
+.newsletter{
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.newsletter input{
+        background: transparent;
+        border: none;
+        outline: none;
+}
+.newsletter span{
+        background: #212245;
+        padding: 5px 10px;
+        
+        border-radius: 5px;
+}
+.newsletter span i {
+    color: #fff;
+}
+.newsletter input:focus{
+    outline: none;
+}
+.newsletter input::placeholder{
+    color: #212245;
+}
+.social__links a{
+    text-decoration: none;
+    color: black;
+
+}
+.social__links span i {
+    padding: 5px;
+     background: #fff;
+     color: #212245;
+     border-radius: 50%;
+}
+.copyright__text{
+    font-size: 0.9rem;
+    color: #212245;
+}
+@media only screen and (max-width: 992px) {
+    .newsletter input{
+        padding:  7px;
+        font-size: .7rem;
+    }
+    .newsletter span{
+        padding: 4px 20px;
+        font-size: .7rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .footer__title{
+        font-size: .8rem;
+    }
+    .delivery__time__item  span{
+      font-size: .8rem;
+    }
+    .delivery__time__item p{
+        font-size: .7rem;
+        margin-bottom: 0;
+    }
+    .newsletter input{
+        padding:  7px;
+        font-size: .7rem;
+    }
+    .newsletter span{
+        padding: 4px 20px;
+        font-size: .7rem;
+    }
+}
+@media only screen and (max-width: 576px){
+
+    .copyright__text{
+        text-align: center;
+    }
+.social__links{
+    justify-content: center;
+}
+.social__links p {
+    font-size: .8rem;
+}
+.social__links span{
+    padding: 4px;
+}
+.social__links span a{
+    font-size: .7rem;
+}
+}

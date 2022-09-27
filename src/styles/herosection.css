@@ -1,0 +1,60 @@
+.hero__title{
+    font-size: 2.5rem;
+}
+.hero__title span {
+    color: red;
+}
+.hero__content p{
+    color: #777;
+    font-size: 1rem;
+    line-height: 30px;
+}
+.hero__content {
+    padding-top: 70px;
+}
+.hero__btns button{
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.order__btn{
+    background: red;
+    color: white;
+    transition: .3s;
+}
+.hero__btns button a{
+    text-decoration: none   ;
+    color: white;
+}
+.order__btn:hover{
+    background: #212245;
+    color: #fff;
+}
+.all__foods__btn{
+    background: red;
+    color: white;
+    transition: .3s;
+}
+.all__foods__btn:hover{
+    background: #212245;
+    color: #fff;
+}
+.hero__service p{
+  color: #212245;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.shipping__icon i{
+    padding: 5px;
+    background: #212245;
+    color: #fff;
+    border-radius: 50%;
+}
+.cart__secure__icon i {
+    padding: 5px;
+    background: #212245;
+    color: #fff;
+    border-radius: 50%;
+}
